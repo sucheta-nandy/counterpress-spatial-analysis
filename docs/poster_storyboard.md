@@ -9,7 +9,7 @@
 ```
 +---------------------------------------------------------------------------------------------------+
 |  TITLE: When Does the Counterpress Work? Spatial Predictors of Possession Regain & Transition Risk |
-|  AUTHORS: [Author List]  |  INSTITUTION: [Affiliation]  |  GITHUB: [PUBLIC REPOSITORY URL]         |
+|  AUTHORS: [Author List]  |  INSTITUTION: [Affiliation]  |  GITHUB: https://github.com/sucheta-nandy/counterpress-spatial-analysis |
 +------------------------------------+----------------------------------+---------------------------+
 | BLOCK 1: THE RESEARCH QUESTION     | BLOCK 3: 360 GEOMETRY AT         | BLOCK 5: WHAT PREDICTS    |
 | - Tactical tension: Regain vs Risk |          COUNTERPRESS INITIATION |          DANGEROUS ESCAPE?|

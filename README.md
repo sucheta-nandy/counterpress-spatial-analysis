@@ -133,7 +133,7 @@ counterpress-spatial-analysis/
 ### Virtual Environment Setup
 ```bash
 # Clone the repository
-git clone [PUBLIC REPOSITORY URL]
+git clone https://github.com/sucheta-nandy/counterpress-spatial-analysis.git
 cd counterpress-spatial-analysis
 
 # Create and activate virtual environment

@@ -2,7 +2,7 @@
 
 **Target Competition**: MIT Sloan Sports Analytics Conference 2027 (SSAC27) Research Paper Competition  
 **Requirement**: Open-source supporting code and data repository for reproducibility.  
-**Repository Placeholder**: `[PUBLIC REPOSITORY URL]`  
+**Repository URL**: `https://github.com/sucheta-nandy/counterpress-spatial-analysis`  
 
 ---
 
@@ -57,7 +57,7 @@ Public users can fully reproduce the published results and figures by executing 
 
 ```bash
 # 1. Clone repository
-git clone [PUBLIC REPOSITORY URL]
+git clone https://github.com/sucheta-nandy/counterpress-spatial-analysis.git
 cd counterpress-spatial-analysis
 
 # 2. Set up virtual environment

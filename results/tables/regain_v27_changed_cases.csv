@@ -1,0 +1,51 @@
+episode_id,match_id,competition_name,period,counterpressing_team,possession_team,initiation_seconds,delay_seconds,change_reason,controlled_acquisition_time,controlled_control_time,controlled_regain_time,controlled_regain_event_type,controlled_regain_evidence,regain_5s_controlled_v26,regain_5s_controlled,dangerous_escape_15s,episode_outcome_3class
+3835339_p156_32146b93,3835339,UEFA Women's Euro,2,Switzerland Women's,Switzerland Women's,2165.03,1.472,control_exceeded_5s,0.609,5.546,5.546,Pass,duel_plus_pass,1,0,0,harmless_escape
+3869486_p88_a469205a,3869486,FIFA World Cup,2,Portugal,Portugal,110.177,5.324,control_exceeded_5s,0.302,6.419,6.419,Pass,duel_plus_pass,1,0,0,harmless_escape
+3788750_p20_dc90b369,3788750,UEFA Euro,1,Spain,Spain,826.5840000000001,3.411,control_exceeded_5s,4.719,6.753,6.753,Pass,ball_recovery_plus_pass,1,0,0,harmless_escape
+3869684_p146_4d779389,3869684,FIFA World Cup,2,Croatia,Morocco,2023.305,4.258,control_exceeded_5s,4.992,6.389,6.389,Pass,duel_plus_pass,1,0,0,harmless_escape
+3835340_p144_e00f60d8,3835340,UEFA Women's Euro,2,Portugal Women's,Portugal Women's,1384.165,3.648,control_exceeded_5s,1.712,13.586,13.586,Pass,ball_recovery_plus_pass,1,0,1,dangerous_escape
+3893804_p110_ca3ba306,3893804,Women's World Cup,2,Switzerland Women's,Norway Women's,719.554,4.796,control_exceeded_5s,3.309,10.833,10.833,Pass,goalkeeper_plus_pass,1,0,1,dangerous_escape
+3893797_p150_9777e691,3893797,Women's World Cup,2,Portugal Women's,Netherlands Women's,1192.796,2.481,control_exceeded_5s,1.664,6.071,6.071,Pass,interception_plus_pass,1,0,0,harmless_escape
+3773571_p200_e2c835d2,3773571,La Liga,2,Barcelona,Real Valladolid,2559.647,3.526,control_exceeded_5s,2.962,10.754,10.754,Pass,goalkeeper_plus_pass,1,0,1,dangerous_escape
+3795108_p94_e155ad0b,3795108,UEFA Euro,2,Spain,Switzerland,700.494,2.343,control_exceeded_5s,4.928,14.664,14.664,Pass,ball_recovery_plus_pass,1,0,1,dangerous_escape
+3837876_p109_d4f66e78,3837876,Ligue 1,2,Paris Saint-Germain,Paris Saint-Germain,995.856,2.435,control_exceeded_5s,2.011,7.618,7.618,Pass,ball_recovery_plus_pass,1,0,0,harmless_escape
+3857274_p72_6ea8c459,3857274,FIFA World Cup,1,Ecuador,Ecuador,2578.84,0.0,control_exceeded_5s,0.33,7.403,7.403,Pass,ball_recovery_plus_pass,1,0,1,dangerous_escape
+3893823_p50_d4540460,3893823,Women's World Cup,1,Costa Rica Women's,Costa Rica Women's,1688.799,5.772,control_exceeded_5s,2.848,6.438,6.438,Pass,duel_plus_pass,1,0,1,dangerous_escape
+3835334_p88_353dfed2,3835334,UEFA Women's Euro,1,Iceland Women's,Iceland Women's,2323.908,2.04,control_exceeded_5s,0.54,9.053,9.053,Pass,opponent_turnover_plus_pass,1,0,0,harmless_escape
+3773457_p135_0f0b47dd,3773457,La Liga,2,Barcelona,Barcelona,1340.373,7.015,control_exceeded_5s,4.563,12.497,12.497,Pass,opponent_clearance_plus_pass,1,0,0,harmless_escape
+3837717_p144_0feb11b2,3837717,Ligue 1,2,Lyon,Lyon,2336.675,4.104,control_exceeded_5s,0.365,6.338,6.338,Pass,opponent_turnover_plus_pass,1,0,0,harmless_escape
+3802837_p162_dbd4cd0a,3802837,Ligue 1,2,Paris Saint-Germain,Paris Saint-Germain,2812.371,1.348,control_exceeded_5s,3.382,7.879,7.879,Pass,goalkeeper_plus_pass,1,0,1,dangerous_escape
+3857269_p40_6f2053ad,3857269,FIFA World Cup,1,Switzerland,Switzerland,1215.23,5.777,control_exceeded_5s,4.161,9.815,9.815,Pass,ball_recovery_plus_pass,1,0,1,dangerous_escape
+3788763_p149_18fb42b5,3788763,UEFA Euro,2,France,France,2411.043,4.887,control_exceeded_5s,4.797,13.597,13.597,Pass,opponent_turnover_plus_pass,1,0,0,harmless_escape
+3837706_p175_b966128f,3837706,Ligue 1,2,Paris Saint-Germain,Paris Saint-Germain,2179.057,0.0,control_exceeded_5s,3.78,7.237,7.237,Pass,ball_recovery_plus_pass,1,0,0,harmless_escape
+3794692_p153_fcdf4c35,3794692,UEFA Euro,4,Sweden,Sweden,165.284,7.313,control_exceeded_5s,4.982,6.501,6.501,Pass,opponent_turnover_plus_pass,1,0,1,dangerous_escape
+3857254_p126_bb880656,3857254,FIFA World Cup,2,Tunisia,Denmark,1063.887,1.411,control_exceeded_5s,3.599,5.684,5.684,Pass,duel_plus_pass,1,0,1,dangerous_escape
+3857277_p48_df7dca7b,3857277,FIFA World Cup,1,Croatia,Croatia,1782.972,5.269,control_exceeded_5s,1.164,7.715,7.715,Pass,duel_plus_pass,1,0,1,dangerous_escape
+3857288_p55_23464c11,3857288,FIFA World Cup,1,Tunisia,Australia,1704.282,1.519,control_exceeded_5s,3.896,11.798,11.798,Pass,duel_plus_pass,1,0,0,harmless_escape
+3857294_p99_34843fd1,3857294,FIFA World Cup,2,Netherlands,Qatar,553.07,2.092,control_exceeded_5s,4.441,5.041,5.041,Pass,duel_plus_pass,1,0,0,harmless_escape
+3895309_p89_eda85659,3895309,1. Bundesliga,2,Borussia Dortmund,Borussia Dortmund,786.884,5.905,control_exceeded_5s,1.956,14.448,14.448,Pass,ball_recovery_plus_pass,1,0,0,harmless_escape
+3904629_p109_ca8c831d,3904629,Women's World Cup,2,England Women's,England Women's,842.785,7.181,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3837827_p126_6dd326c9,3837827,Ligue 1,2,Paris Saint-Germain,Paris Saint-Germain,2101.257,7.162,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3857295_p125_c4dcb02b,3857295,FIFA World Cup,2,Costa Rica,Costa Rica,1637.825,1.971,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3895180_p65_500a314c,3895180,1. Bundesliga,1,Bayer Leverkusen,Bayer Leverkusen,1888.324,4.295,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+4018357_p215_19149cad,4018357,UEFA Women's Euro,4,Germany Women's,Germany Women's,148.975,7.101,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3837827_p39_4436b79a,3837827,Ligue 1,1,Paris Saint-Germain,Paris Saint-Germain,1281.795,7.149,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3893807_p112_06a85876,3893807,Women's World Cup,2,Republic of Ireland Women's,Republic of Ireland Women's,691.3389999999999,1.156,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3837752_p45_514362bf,3837752,Ligue 1,1,AC Ajaccio,AC Ajaccio,1303.954,4.137,standalone_action_rejected,,,,,,1,0,1,dangerous_escape
+3902240_p59_847697c3,3902240,Women's World Cup,1,Spain Women's,Spain Women's,1559.96,7.93,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3837885_p16_558b84dc,3837885,Ligue 1,1,Olympique de Marseille,Olympique de Marseille,366.742,1.924,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3998840_p84_4087cf91,3998840,UEFA Women's Euro,2,Germany Women's,Germany Women's,39.379,1.94,standalone_action_rejected,5.621,5.621,5.621,Carry,ball_recovery_plus_carry,1,0,0,harmless_escape
+3941022_p146_8c3b5bf8,3941022,UEFA Euro,2,Turkey,Turkey,2017.34,2.622,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3773372_p161_239f3884,3773372,La Liga,2,Atlético Madrid,Atlético Madrid,815.234,3.815,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3837876_p147_a87c184c,3837876,Ligue 1,2,Lille,Lille,1799.618,1.627,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3773428_p46_81c4cc9e,3773428,La Liga,1,Cádiz,Barcelona,1650.388,1.17,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3857257_p17_26794161,3857257,FIFA World Cup,1,Denmark,Denmark,359.683,0.751,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3895309_p67_624723b9,3895309,1. Bundesliga,1,Bayer Leverkusen,Bayer Leverkusen,2596.468,1.604,standalone_action_rejected,,,,,,1,0,1,dangerous_escape
+3857281_p185_4fea3a19,3857281,FIFA World Cup,2,Canada,Canada,3020.104,2.09,standalone_action_rejected,7.615,7.615,7.615,Pass,new_possession_completed_pass,1,0,0,harmless_escape
+3837947_p8_21907e1e,3837947,Ligue 1,1,Lens,Lens,128.033,1.057,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3773403_p11_75126d7d,3773403,La Liga,1,Barcelona,Barcelona,270.758,4.587,standalone_action_rejected,10.058,13.032,13.032,Pass,opponent_clearance_plus_pass,1,0,0,harmless_escape
+3788760_p125_1f0b3c32,3788760,UEFA Euro,2,Croatia,Croatia,1351.934,0.909,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3844385_p19_452ec3fa,3844385,UEFA Women's Euro,1,Germany Women's,Germany Women's,307.501,1.321,standalone_action_rejected,,,,,,1,0,1,dangerous_escape
+3837859_p103_4735580f,3837859,Ligue 1,2,Toulouse,Toulouse,1006.371,2.143,standalone_action_rejected,,,,,,1,0,0,harmless_escape
+3942752_p49_588770ef,3942752,UEFA Euro,1,France,France,1852.407,0.82,standalone_action_rejected,,,,,,1,0,1,dangerous_escape
+3844386_p57_11c482ce,3844386,UEFA Women's Euro,1,Belgium Women's,Belgium Women's,1623.344,2.509,standalone_action_rejected,,,,,,1,0,0,harmless_escape

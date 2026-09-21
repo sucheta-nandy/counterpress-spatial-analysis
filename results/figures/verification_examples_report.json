@@ -1,0 +1,170 @@
+[
+  {
+    "match_id": 3857276,
+    "match_desc": "FIFA World Cup 2022: Canada vs. Morocco",
+    "chosen_index": 73,
+    "period": 1,
+    "timestamp": "00:01:41.705",
+    "event_type": "Pressure",
+    "pressing_team": "Canada",
+    "possession_team": "Morocco",
+    "actor_player": "Jonathan Osorio",
+    "event_location": [
+      47.1,
+      46.8
+    ],
+    "freeze_frame_actor_location": [
+      47.099998474121094,
+      46.79999923706055
+    ],
+    "coord_difference_dx_dy": [
+      1.5258789076710855e-06,
+      7.629394502828291e-07
+    ],
+    "total_visible_players": 14,
+    "visible_teammates": 8,
+    "visible_opponents": 6,
+    "has_actor_flag": true,
+    "figure_saved": "results/figures/counterpress_example_1_worldcup.png",
+    "preceding_types": [
+      "Pass",
+      "Ball Receipt*",
+      "Pass",
+      "Ball Receipt*",
+      "Carry"
+    ],
+    "subsequent_types": [
+      "Pass",
+      "Ball Receipt*",
+      "Carry",
+      "Pressure",
+      "Pass"
+    ]
+  },
+  {
+    "match_id": 3895292,
+    "match_desc": "1. Bundesliga 2023/2024: Union Berlin vs. Bayer Leverkusen",
+    "chosen_index": 24,
+    "period": 1,
+    "timestamp": "00:00:12.269",
+    "event_type": "Block",
+    "pressing_team": "Union Berlin",
+    "possession_team": "Bayer Leverkusen",
+    "actor_player": "Andr\u00e1s Sch\u00e4fer",
+    "event_location": [
+      84.3,
+      9.2
+    ],
+    "freeze_frame_actor_location": [
+      84.30000305175781,
+      9.199999809265137
+    ],
+    "coord_difference_dx_dy": [
+      3.051757815342171e-06,
+      1.9073486257070726e-07
+    ],
+    "total_visible_players": 18,
+    "visible_teammates": 8,
+    "visible_opponents": 10,
+    "has_actor_flag": true,
+    "figure_saved": "results/figures/counterpress_example_2_bundesliga.png",
+    "preceding_types": [
+      "Miscontrol",
+      "Ball Recovery",
+      "Carry",
+      "Pass",
+      "Ball Receipt*"
+    ],
+    "subsequent_types": [
+      "Pass",
+      "Pressure",
+      "Ball Receipt*",
+      "Pass",
+      "Ball Receipt*"
+    ]
+  },
+  {
+    "match_id": 3930163,
+    "match_desc": "UEFA Euro 2024: Serbia vs. England",
+    "chosen_index": 28,
+    "period": 1,
+    "timestamp": "00:00:25.437",
+    "event_type": "Pressure",
+    "pressing_team": "Serbia",
+    "possession_team": "England",
+    "actor_player": "Sergej Milinkovi\u0107-Savi\u0107",
+    "event_location": [
+      87.0,
+      37.9
+    ],
+    "freeze_frame_actor_location": [
+      87.0,
+      37.900001525878906
+    ],
+    "coord_difference_dx_dy": [
+      0.0,
+      1.5258789076710855e-06
+    ],
+    "total_visible_players": 14,
+    "visible_teammates": 7,
+    "visible_opponents": 7,
+    "has_actor_flag": true,
+    "figure_saved": "results/figures/counterpress_example_3_euro2024.png",
+    "preceding_types": [
+      "Dispossessed",
+      "Duel",
+      "Pass",
+      "Ball Receipt*",
+      "Carry"
+    ],
+    "subsequent_types": [
+      "Pass",
+      "Ball Receipt*",
+      "Carry",
+      "Pass",
+      "Ball Receipt*"
+    ]
+  },
+  {
+    "match_id": 3773565,
+    "match_desc": "La Liga 2020/2021: Granada vs. Barcelona",
+    "chosen_index": 80,
+    "period": 1,
+    "timestamp": "00:01:35.308",
+    "event_type": "Duel",
+    "pressing_team": "Barcelona",
+    "possession_team": "Granada",
+    "actor_player": "Sergio Busquets i Burgos",
+    "event_location": [
+      27.4,
+      40.3
+    ],
+    "freeze_frame_actor_location": [
+      27.399999618530273,
+      40.29999923706055
+    ],
+    "coord_difference_dx_dy": [
+      3.8146972514141453e-07,
+      7.629394502828291e-07
+    ],
+    "total_visible_players": 15,
+    "visible_teammates": 9,
+    "visible_opponents": 6,
+    "has_actor_flag": true,
+    "figure_saved": "results/figures/counterpress_example_4_laliga.png",
+    "preceding_types": [
+      "Pressure",
+      "Ball Receipt*",
+      "Ball Recovery",
+      "Carry",
+      "Dispossessed"
+    ],
+    "subsequent_types": [
+      "Foul Committed",
+      "Foul Won",
+      "Ball Recovery",
+      "Carry",
+      "Shot"
+    ]
+  }
+]

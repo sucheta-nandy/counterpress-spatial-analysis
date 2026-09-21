@@ -1,0 +1,9 @@
+target,baseline,comparison_model,delta_roc_auc,delta_pr_auc,delta_brier,delta_log_loss
+regain_5s,Model 1 (Context),Model 2 (Context+Local),0.0163,0.0244,-0.0038,-0.0104
+regain_5s,Model 1 (Context),Model 3 (Full Spatial Logistic),0.023,0.0377,-0.0063,-0.0187
+regain_5s,Model 1 (Context),Model 4 (Additive Spline GAM),0.0231,0.0393,-0.0062,-0.0182
+regain_5s,Model 1 (Context),Model 5 (Gradient Boosting),0.0221,0.0427,-0.0075,-0.0241
+danger_15s,Model 1 (Context),Model 2 (Context+Local),0.0053,0.0044,-0.0006,-0.0032
+danger_15s,Model 1 (Context),Model 3 (Full Spatial Logistic),0.0125,0.0235,-0.0027,-0.0089
+danger_15s,Model 1 (Context),Model 4 (Additive Spline GAM),0.0173,0.0526,-0.0054,-0.0137
+danger_15s,Model 1 (Context),Model 5 (Gradient Boosting),0.0217,0.0625,-0.0067,-0.0186

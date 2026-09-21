@@ -1,0 +1,43 @@
+feature,family,type,role,description
+initiation_x,A_context,continuous,predictor,X coordinate of initiation location on 120x80 pitch
+initiation_y,A_context,continuous,predictor,Y coordinate of initiation location on 120x80 pitch
+distance_to_nearest_touchline,A_context,continuous,predictor,"Distance to closest touchline (min(y, 80-y))"
+lateral_centrality,A_context,continuous,predictor,Distance from pitch center line (abs(y - 40))
+pitch_zone_3x3,A_context,categorical,predictor,3x3 spatial pitch zone (e.g. attacking_third_center)
+initiation_event_type,A_context,categorical,predictor,"Event type initiating counterpress (e.g. Pressure, Duel)"
+competition,A_context,categorical,predictor,Competition name (e.g. FIFA World Cup)
+period,A_context,categorical,predictor,"Match period (1, 2, 3, 4)"
+visible_teammates_within_5,B_local_pressure,count,predictor,Visible teammates within 5 units (excluding actor)
+visible_opponents_within_5,B_local_pressure,count,predictor,Visible opponents within 5 units
+numerical_advantage_5,B_local_pressure,integer,predictor,Local numerical advantage at 5 units (teammates - opponents)
+visible_teammates_within_10,B_local_pressure,count,predictor,Visible teammates within 10 units (excluding actor)
+visible_opponents_within_10,B_local_pressure,count,predictor,Visible opponents within 10 units
+numerical_advantage_10,B_local_pressure,integer,predictor,Local numerical advantage at 10 units (teammates - opponents)
+nearest_teammate_distance,B_local_pressure,continuous,predictor,Euclidean distance to closest teammate (excluding actor)
+second_nearest_teammate_distance,B_local_pressure,continuous,predictor,Euclidean distance to 2nd closest teammate
+nearest_opponent_distance,B_local_pressure,continuous,predictor,Euclidean distance to closest opponent
+second_nearest_opponent_distance,B_local_pressure,continuous,predictor,Euclidean distance to 2nd closest opponent
+numerical_advantage_15,C_compactness,integer,predictor,Local numerical advantage at 15 units (teammates - opponents)
+teammate_mean_pairwise_distance,C_compactness,continuous,predictor,Mean pairwise distance between teammates (dispersion)
+opponent_mean_pairwise_distance,C_compactness,continuous,predictor,Mean pairwise distance between opponents
+teammate_hull_area,C_compactness,continuous,predictor,Convex hull area of teammates (NaN if <3 players)
+opponent_hull_area,C_compactness,continuous,predictor,Convex hull area of opponents (NaN if <3 players)
+teammate_x_std,C_compactness,continuous,predictor,Standard deviation of teammate X coordinates
+teammate_y_std,C_compactness,continuous,predictor,Standard deviation of teammate Y coordinates
+opponent_x_std,C_compactness,continuous,predictor,Standard deviation of opponent X coordinates
+opponent_y_std,C_compactness,continuous,predictor,Standard deviation of opponent Y coordinates
+opponents_ahead_of_ball,D_forward_structure,count,predictor,Opponents positioned ahead of ball toward their attack goal
+defenders_ahead_of_ball,D_forward_structure,count,predictor,Defenders (pressing teammates) positioned behind ball defending own goal
+forward_numerical_advantage,D_forward_structure,integer,predictor,Forward advantage (defenders ahead - opponents ahead)
+nearest_defender_ahead_distance,D_forward_structure,continuous,predictor,Distance to nearest defender ahead of ball
+nearest_opponent_ahead_distance,D_forward_structure,continuous,predictor,Distance to nearest opponent ahead of ball
+opponents_in_escape_corridor_20,D_forward_structure,count,predictor,Opponents in 20-unit forward escape corridor
+defenders_in_escape_corridor_20,D_forward_structure,count,predictor,Defenders in 20-unit forward escape corridor
+escape_corridor_advantage_20,D_forward_structure,integer,predictor,Corridor advantage (defenders - opponents in corridor)
+coverage_5,E_observability,continuous,control,Fraction of 5-unit on-pitch circle inside 360 visible polygon
+coverage_10,E_observability,continuous,control,Fraction of 10-unit on-pitch circle inside 360 visible polygon
+coverage_15,E_observability,continuous,control,Fraction of 15-unit on-pitch circle inside 360 visible polygon
+escape_corridor_coverage_20,E_observability,continuous,control,Fraction of 20-unit corridor inside 360 visible polygon
+visible_area_pitch_fraction,E_observability,continuous,control,Fraction of entire pitch visible in 360 polygon
+frame_player_count,E_observability,count,control,Total players detected in freeze frame
+actor_matching_anomalous,E_observability,boolean,control,Actor-event location discrepancy flag (robustness control)

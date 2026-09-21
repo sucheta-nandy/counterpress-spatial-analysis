@@ -1,0 +1,173 @@
+{
+  "initiation_delay_distribution": {
+    "min": 0.0,
+    "p25": 0.721,
+    "median": 1.677,
+    "p75": 3.14,
+    "p95": 6.224,
+    "max": 8.0,
+    "pct_under_5s": 91.85911053244706
+  },
+  "action_vs_episode_counts": {
+    "total_counterpress_actions": 45389,
+    "total_counterpress_episodes": 29186,
+    "ratio_actions_per_episode": 1.555
+  },
+  "actions_per_episode_distribution": {
+    "1": 18009,
+    "2": 7588,
+    "3": 2558,
+    "4": 758,
+    "5": 186,
+    "6": 57,
+    "7": 18,
+    "8": 8,
+    "9": 4
+  },
+  "regain_rates": {
+    "regain_3s_count": 9107,
+    "regain_3s_pct": 31.2,
+    "regain_5s_count": 11024,
+    "regain_5s_pct": 37.77,
+    "regain_8s_count": 12912,
+    "regain_8s_pct": 44.24
+  },
+  "dangerous_escape_rates": {
+    "dangerous_escape_15s_count": 6261,
+    "dangerous_escape_15s_pct": 21.45,
+    "shot_15s_count": 973,
+    "shot_15s_pct": 3.33,
+    "final_third_entry_15s_count": 6032,
+    "final_third_entry_15s_pct": 20.67
+  },
+  "three_class_distribution": {
+    "harmless_escape": {
+      "count": 12703,
+      "pct": 43.52
+    },
+    "successful_regain": {
+      "count": 10222,
+      "pct": 35.02
+    },
+    "dangerous_escape": {
+      "count": 6261,
+      "pct": 21.45
+    }
+  },
+  "episodes_by_competition": {
+    "1. Bundesliga": 2293,
+    "FIFA World Cup": 3964,
+    "La Liga": 2341,
+    "Ligue 1": 4122,
+    "Major League Soccer": 402,
+    "UEFA Euro": 6305,
+    "UEFA Women's Euro": 4660,
+    "Women's World Cup": 5099
+  },
+  "episodes_with_360_by_competition": {
+    "1. Bundesliga": 1937,
+    "FIFA World Cup": 3532,
+    "La Liga": 2218,
+    "Ligue 1": 3523,
+    "Major League Soccer": 192,
+    "UEFA Euro": 5603,
+    "UEFA Women's Euro": 4200,
+    "Women's World Cup": 4641
+  },
+  "duplicate_initiating_events": 0,
+  "logical_contradictions": 0,
+  "dangerous_transition_coordinate_verification_samples": [
+    {
+      "episode_id": "3895320_p16_453f87d0",
+      "opp_team": "Bayer Leverkusen",
+      "opp_initial_x": 60.1,
+      "opp_max_progression": 84.6,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p29_ee563e28",
+      "opp_team": "Bayer Leverkusen",
+      "opp_initial_x": 71.4,
+      "opp_max_progression": 98.9,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p42_7429fec6",
+      "opp_team": "Bayer Leverkusen",
+      "opp_initial_x": 69.5,
+      "opp_max_progression": 111.9,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p48_653bb31b",
+      "opp_team": "VfB Stuttgart",
+      "opp_initial_x": 35.9,
+      "opp_max_progression": 82.7,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p54_56fe482f",
+      "opp_team": "VfB Stuttgart",
+      "opp_initial_x": 63.8,
+      "opp_max_progression": 102.2,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p57_4038a4b4",
+      "opp_team": "VfB Stuttgart",
+      "opp_initial_x": 63.8,
+      "opp_max_progression": 90.1,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p61_3c4711e4",
+      "opp_team": "Bayer Leverkusen",
+      "opp_initial_x": 22.9,
+      "opp_max_progression": 92.2,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p73_6bd42809",
+      "opp_team": "Bayer Leverkusen",
+      "opp_initial_x": 63.6,
+      "opp_max_progression": 105.9,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p83_154bec97",
+      "opp_team": "Bayer Leverkusen",
+      "opp_initial_x": 53.6,
+      "opp_max_progression": 80.4,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 0
+    },
+    {
+      "episode_id": "3895320_p86_7d628d40",
+      "opp_team": "VfB Stuttgart",
+      "opp_initial_x": 65.7,
+      "opp_max_progression": 104.9,
+      "started_in_final_third": false,
+      "final_third_entry": 1,
+      "shot": 1
+    }
+  ],
+  "negative_delays": 0,
+  "defensive_action_not_regain_verified": true
+}

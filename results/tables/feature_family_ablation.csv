@@ -1,0 +1,11 @@
+target,configuration,roc_auc_mean,roc_auc_std,pr_auc_mean,pr_auc_std,brier_score_mean,brier_score_std
+regain_5s,Full Spatial Model,0.8156,0.002,0.777,0.0065,0.1386,0.0019
+regain_5s,Minus Local Pressure Geometry,0.8129,0.0016,0.7751,0.0067,0.1389,0.002
+regain_5s,Minus Broader Compactness,0.8138,0.0014,0.7698,0.0075,0.1389,0.002
+regain_5s,Minus Forward Escape Structure,0.8159,0.0018,0.7771,0.0066,0.1386,0.0019
+regain_5s,Minus Pitch Geometry,0.8115,0.0027,0.7743,0.0045,0.139,0.0021
+danger_15s,Full Spatial Model,0.7812,0.0083,0.4954,0.0166,0.1425,0.0029
+danger_15s,Minus Local Pressure Geometry,0.7808,0.0083,0.4935,0.0161,0.1426,0.0028
+danger_15s,Minus Broader Compactness,0.7805,0.0103,0.4907,0.0203,0.1428,0.0031
+danger_15s,Minus Forward Escape Structure,0.7796,0.0087,0.4904,0.0176,0.143,0.0028
+danger_15s,Minus Pitch Geometry,0.7355,0.008,0.4378,0.0093,0.1525,0.0034

@@ -1,0 +1,8 @@
+step_number,filter_stage,episodes_retained,episodes_dropped,retention_pct,description
+1,Raw Counterpress Actions,45389,0,100.0,Total event records tagged counterpress=True across audited 360 matches
+2,Distinct Counterpress Episodes,29186,16203,64.3,Chained actions within the same possession collapsed into distinct episodes
+3,Valid Turnover Linkage,26375,2811,90.37,Defensible turnover linkage with 0 <= delay <= 5.0s and high link quality
+4,Open-Play Turnover Context,24610,1765,93.31,Excludes immediate restart phases (throw-in/corner/free-kick deliveries)
+5,Usable Initiation 360 Freeze Frame,21782,2828,88.51,"Requires complete, non-empty 360 freeze frame at initiation event"
+6,Competition Exclusions (MLS 2023 Sensitivity Cohort),21616,166,99.24,MLS 2023 set aside for sensitivity analysis; AFCON & corrupt Euro match previously excluded
+7,Final Locked Primary Modeling Cohort,21616,0,74.06,Standardized primary cohort for spatial feature engineering and modeling

@@ -1,0 +1,49 @@
+grouping_variable,bin_or_category,outcome,N,outcome_count,outcome_rate
+numerical_advantage_5,-1,regain_5s,12022,3946,0.3282
+numerical_advantage_5,-2,regain_5s,3153,704,0.2233
+numerical_advantage_5,0,regain_5s,5217,2291,0.4391
+numerical_advantage_5,1,regain_5s,575,391,0.68
+numerical_advantage_5,<= -3,regain_5s,582,113,0.1942
+numerical_advantage_5,>= +2,regain_5s,67,46,0.6866
+numerical_advantage_10,-1,regain_5s,6878,2169,0.3154
+numerical_advantage_10,-2,regain_5s,4299,999,0.2324
+numerical_advantage_10,-3,regain_5s,1710,317,0.1854
+numerical_advantage_10,0,regain_5s,5347,2259,0.4225
+numerical_advantage_10,1,regain_5s,1921,1092,0.5685
+numerical_advantage_10,2,regain_5s,588,403,0.6854
+numerical_advantage_10,<= -4,regain_5s,727,137,0.1884
+numerical_advantage_10,>= +3,regain_5s,146,115,0.7877
+nearest_teammate_distance_quintile,Q1 (Closest),regain_5s,4323,2348,0.5431
+nearest_teammate_distance_quintile,Q2,regain_5s,4320,1583,0.3664
+nearest_teammate_distance_quintile,Q3,regain_5s,4324,1312,0.3034
+nearest_teammate_distance_quintile,Q4,regain_5s,4301,1189,0.2764
+nearest_teammate_distance_quintile,Q5 (Furthest),regain_5s,4316,1055,0.2444
+nearest_opponent_distance_quintile,Q1 (Closest),regain_5s,4329,2373,0.5482
+nearest_opponent_distance_quintile,Q2,regain_5s,4369,1634,0.374
+nearest_opponent_distance_quintile,Q3,regain_5s,4318,1212,0.2807
+nearest_opponent_distance_quintile,Q4,regain_5s,4296,1154,0.2686
+nearest_opponent_distance_quintile,Q5 (Furthest),regain_5s,4304,1118,0.2598
+pitch_third,Defensive Third,regain_5s,4073,2317,0.5689
+pitch_third,Middle Third,regain_5s,9821,3332,0.3393
+pitch_third,Attacking Third,regain_5s,7722,1842,0.2385
+lateral_zone,Central (>=15u to line),regain_5s,13850,4827,0.3485
+lateral_zone,Wide (<15u to line),regain_5s,7766,2664,0.343
+forward_numerical_advantage,-1,dangerous_escape_15s,5156,1260,0.2444
+forward_numerical_advantage,-2,dangerous_escape_15s,3587,902,0.2515
+forward_numerical_advantage,-3,dangerous_escape_15s,1714,408,0.238
+forward_numerical_advantage,0,dangerous_escape_15s,4978,1168,0.2346
+forward_numerical_advantage,1,dangerous_escape_15s,2865,580,0.2024
+forward_numerical_advantage,2,dangerous_escape_15s,1586,241,0.152
+forward_numerical_advantage,<= -4,dangerous_escape_15s,587,111,0.1891
+forward_numerical_advantage,>= +3,dangerous_escape_15s,1143,174,0.1522
+escape_corridor_advantage_20,-1,dangerous_escape_15s,5836,1360,0.233
+escape_corridor_advantage_20,0 (Parity),dangerous_escape_15s,10741,2447,0.2278
+escape_corridor_advantage_20,1,dangerous_escape_15s,3035,639,0.2105
+escape_corridor_advantage_20,<= -2 (Defensive Surplus),dangerous_escape_15s,1430,297,0.2077
+escape_corridor_advantage_20,>= +2 (Opponent Surplus),dangerous_escape_15s,574,101,0.176
+pitch_third,Defensive Third,dangerous_escape_15s,4073,1287,0.316
+pitch_third,Middle Third,dangerous_escape_15s,9821,2688,0.2737
+pitch_third,Attacking Third,dangerous_escape_15s,7722,869,0.1125
+distance_to_nearest_touchline,Touchline (0-10u),dangerous_escape_15s,4910,828,0.1686
+distance_to_nearest_touchline,Half-Space (10-20u),dangerous_escape_15s,5714,1251,0.2189
+distance_to_nearest_touchline,Central (20-40u),dangerous_escape_15s,10990,2764,0.2515

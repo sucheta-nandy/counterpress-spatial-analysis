@@ -1,0 +1,4 @@
+subset_name,predicate,raw_count,missing_count,count_after_clean_actor_filter,pct_of_primary_cohort,canonical_status,explanation
+coverage_10 >= 0.80 (boolean flag),coverage_10_ge_80pct == True,20547,0,20425,95.05,"Canonical boolean flag (20,547)",Evaluated during feature engineering before serialization. Exactly 1 episode (3901797_p29_991b0392) had unrounded coverage_10 = 0.7999999999999999 resulting in False.
+coverage_10 >= 0.80 (float comparison),coverage_10 >= 0.80,20548,0,20425,95.06,"Canonical float threshold (20,548)","Direct float predicate in Parquet/CSV. Evaluates 20,548 rows because 0.7999999999999999 rounds to 0.8000."
+escape_corridor_coverage_20 >= 0.80,escape_corridor_coverage_20 >= 0.80,13411,0,13269,62.04,"Canonical corridor threshold (13,411)","True count in counterpress_features.parquet is exactly 13,411 (62.04%). The 13,873 (64.18%) reported in Iteration 3 report was a preliminary draft figure prior to final geometric pitch clipping."

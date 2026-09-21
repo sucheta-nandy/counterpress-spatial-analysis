@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Data files (keep raw large JSON out of git, rely on data manifest and download scripts)
+data/raw/statsbomb/
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/

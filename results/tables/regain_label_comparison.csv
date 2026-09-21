@@ -1,0 +1,50 @@
+stratification_dimension,category,total_episodes,annot0_ctrl0,annot0_ctrl1_fn,annot1_ctrl0_fp,annot1_ctrl1,agreement_rate_pct,disagreement_rate_pct,cohens_kappa
+Competition,1. Bundesliga,2293,1113,47,149,984,91.45,8.55,0.8288
+Competition,FIFA World Cup,3964,1875,62,316,1711,90.46,9.54,0.8097
+Competition,La Liga,2341,1165,41,144,991,92.1,7.9,0.8414
+Competition,Ligue 1,4122,1897,63,228,1934,92.94,7.06,0.859
+Competition,Major League Soccer,402,196,12,24,170,91.04,8.96,0.8203
+Competition,UEFA Euro,6305,3039,110,471,2685,90.79,9.21,0.8157
+Competition,UEFA Women's Euro,4660,2237,104,432,1887,88.5,11.5,0.7698
+Competition,Women's World Cup,5099,2511,116,520,1952,87.53,12.47,0.7491
+Initiation Event Type,50/50,102,35,1,2,64,97.06,2.94,0.936
+Initiation Event Type,Block,801,427,22,109,243,83.65,16.35,0.6589
+Initiation Event Type,Dribbled Past,471,281,5,73,112,83.44,16.56,0.6287
+Initiation Event Type,Duel,5099,550,36,134,4379,96.67,3.33,0.8472
+Initiation Event Type,Foul Committed,675,563,1,110,1,83.56,16.44,0.0119
+Initiation Event Type,Interception,2136,186,23,25,1902,97.75,2.25,0.8733
+Initiation Event Type,Pass,1261,15,2,3,1241,99.6,0.4,0.8551
+Initiation Event Type,Pressure,18641,11976,465,1828,4372,87.7,12.3,0.7068
+Turnover Event Type,50/50,167,76,2,17,72,88.62,11.38,0.7741
+Turnover Event Type,Ball Receipt*,1970,88,11,38,1833,97.51,2.49,0.7692
+Turnover Event Type,Ball Recovery,6987,3941,88,776,2182,87.63,12.37,0.7387
+Turnover Event Type,Block,1234,755,24,123,332,88.09,11.91,0.732
+Turnover Event Type,Clearance,842,475,14,108,245,85.51,14.49,0.691
+Turnover Event Type,Dispossessed,1519,5,0,15,1499,99.01,0.99,0.3968
+Turnover Event Type,Dribble,844,5,1,27,811,96.68,3.32,0.2542
+Turnover Event Type,Duel,3713,2395,66,388,864,87.77,12.23,0.708
+Turnover Event Type,Error,1,0,0,0,1,100.0,0.0,1.0
+Turnover Event Type,Foul Committed,1,0,0,0,1,100.0,0.0,1.0
+Turnover Event Type,Foul Won,37,21,1,1,14,94.59,5.41,0.8879
+Turnover Event Type,Goal Keeper,290,194,7,34,55,85.86,14.14,0.637
+Turnover Event Type,Half Start,1,0,0,0,1,100.0,0.0,1.0
+Turnover Event Type,Interception,2502,1466,45,270,721,87.41,12.59,0.7261
+Turnover Event Type,Miscontrol,74,22,2,22,28,67.57,32.43,0.3918
+Turnover Event Type,Pass,8912,4540,293,446,3633,91.71,8.29,0.8325
+Turnover Event Type,Pressure,70,46,1,5,18,91.43,8.57,0.7967
+Turnover Event Type,Shield,1,1,0,0,0,100.0,0.0,1.0
+Turnover Event Type,Shot,16,2,0,13,1,18.75,81.25,0.0189
+Turnover Event Type,Tactical Shift,5,1,0,1,3,80.0,20.0,0.5455
+Initiation Delay Bin,0.0-1.0s,9543,3717,83,770,4973,91.06,8.94,0.819
+Initiation Delay Bin,1.0-2.0s,7082,3987,131,652,2312,88.94,11.06,0.7671
+Initiation Delay Bin,2.0-3.0s,4731,2678,115,407,1531,88.97,11.03,0.7665
+Initiation Delay Bin,3.0-4.0s,3217,1849,115,214,1039,89.77,10.23,0.7818
+Initiation Delay Bin,4.0-5.0s,2237,1285,76,128,748,90.88,9.12,0.8066
+Initiation Delay Bin,>5.0s,2376,517,35,113,1711,93.77,6.23,0.8336
+Num Counterpress Actions,1,18009,7764,262,1280,8703,91.44,8.56,0.8288
+Num Counterpress Actions,2,7588,4465,178,651,2294,89.07,10.93,0.763
+Num Counterpress Actions,3,2558,1364,91,209,894,88.27,11.73,0.7578
+Num Counterpress Actions,4+,1031,440,24,144,423,83.71,16.29,0.6784
+Outcome Class Old,dangerous_escape,6356,4420,139,487,1310,90.15,9.85,0.742
+Outcome Class Old,harmless_escape,10029,9613,416,0,0,95.85,4.15,0.0
+Outcome Class Old,successful_regain,12801,0,0,1797,11004,85.96,14.04,0.0

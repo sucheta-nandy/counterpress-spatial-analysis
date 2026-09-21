@@ -1,0 +1,12 @@
+Metric,Final_Value,Definition,Version_Source
+raw_counterpress_actions,"45,389",Event records in StatsBomb Open Data with counterpress=True across 424 audited matches,StatsBomb Open Data / Iteration 2.7 Freeze
+distinct_episodes,"29,186",Chained counterpress actions collapsed into distinct temporal episodes (open play and restarts),Extraction Pipeline / Iteration 2.7 Freeze
+primary_cohort_episodes,"21,616","Open-play, valid turnover delay (0-5s), high linkage quality, usable 360 freeze frame, non-MLS",Cohort Filter / Iteration 2.7 Freeze
+primary_cohort_matches,414,Unique match IDs containing at least one primary cohort counterpress episode,Cohort Filter / Iteration 2.7 Freeze
+regain_3s_controlled,"28.50% (6,161)","Established controlled possession (carry, completed pass, dribble, shot, receipt) within 3.0s following turnover/acquisition",Methodologically Refined Engine (Fixed opp_team)
+regain_5s_controlled,"34.65% (7,491)",Primary Outcome 1: Established controlled possession within 5.0s following turnover/acquisition evidence,Methodologically Refined Engine (Fixed opp_team)
+regain_8s_controlled,"41.07% (8,878)",Established controlled possession within 8.0s following turnover/acquisition evidence (sensitivity target),Methodologically Refined Engine (Fixed opp_team)
+dangerous_escape_15s,"22.41% (4,844)",Primary Outcome 2: Opponent shot or attacking final-third entry (x >= 80.0) within 15.0s before pressing regain,Methodologically Refined Engine (Fixed opp_team)
+successful_regain,"32.27% (6,976)",Three-State Class 1: regain_5s_controlled == 1 and dangerous_escape_15s == 0,Canonical Three-State Partition
+harmless_escape,"45.32% (9,796)",Three-State Class 2: regain_5s_controlled == 0 and dangerous_escape_15s == 0,Canonical Three-State Partition
+dangerous_escape,"22.41% (4,844)",Three-State Class 3: dangerous_escape_15s == 1 (takes hierarchical precedence over regain),Canonical Three-State Partition

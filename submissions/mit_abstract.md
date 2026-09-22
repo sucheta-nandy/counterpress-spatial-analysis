@@ -7,7 +7,7 @@
 Research Paper Competition — Soccer / Team Tactics
 
 ## Authors
-Research Team
+Sucheta Nandy
 
 ---
 

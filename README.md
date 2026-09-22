@@ -6,7 +6,6 @@
 
 Supporting code, reproducible data pipeline, and statistical modeling suite for our research paper targeting the:
 - **MIT Sloan Sports Analytics Conference 2027 (SSAC27) Research Paper Competition**
-- **Carnegie Mellon Sports Analytics Conference (CMSAC)** (Contingency)
 
 ---
 
@@ -213,7 +212,7 @@ Expected output: **95 passed in ~3.30s**.
 ## 11. Conference Status & Attribution
 
 - **MIT Sloan Sports Analytics Conference 2027 (SSAC27)**: Research Paper Competition submission draft prepared ([`docs/ssac27_abstract_version_a.md`](docs/ssac27_abstract_version_a.md)).
-- **Carnegie Mellon Sports Analytics Conference (CMSAC)**: Contingency poster draft prepared ([`docs/cmsac_poster_abstract_contingency.md`](docs/cmsac_poster_abstract_contingency.md)).
+
 
 ### Attribution
 Data provided by [StatsBomb](https://statsbomb.com/). Used under the [StatsBomb Open Data User Agreement](https://github.com/statsbomb/open-data).
